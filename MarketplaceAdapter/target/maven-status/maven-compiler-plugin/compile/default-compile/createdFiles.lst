@@ -1,0 +1,14 @@
+cl\iplacex\marketplaceadapter\Main.class
+cl\iplacex\marketplaceadapter\service\MarketplaceClient.class
+cl\iplacex\marketplaceadapter\model\MarketplaceOrder$Item.class
+cl\iplacex\marketplaceadapter\model\MarketplaceOrder.class
+cl\iplacex\marketplaceadapter\service\MarketplaceToCanonicalMapper.class
+cl\iplacex\marketplaceadapter\model\CanonicalOrder.class
+cl\iplacex\marketplaceadapter\model\CanonicalOrder$Cliente.class
+cl\iplacex\marketplaceadapter\model\CanonicalOrder$Direccion.class
+cl\iplacex\marketplaceadapter\model\MarketplaceOrder$Cliente.class
+cl\iplacex\marketplaceadapter\model\CanonicalOrder$Metadatos.class
+cl\iplacex\marketplaceadapter\model\CanonicalOrder$Item.class
+cl\iplacex\marketplaceadapter\model\CanonicalOrder$Totales.class
+cl\iplacex\marketplaceadapter\messaging\JmsQueuePublisher.class
+cl\iplacex\marketplaceadapter\model\MarketplaceOrder$Direccion.class

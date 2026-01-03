@@ -1,0 +1,42 @@
+{
+    "idPedido": "string",
+    "origen": "web | mkp",
+    "fecha": "string (ISO-8601)",
+  
+    "cliente": {
+      "nombre": "string",
+      "apellido": "string|null",
+      "rut": "string|null",
+      "telefono": "string|null"
+    },
+  
+    "direccion": {
+      "calle": "string|null",
+      "numero": "string|null",
+      "comuna": "string|null",
+      "ciudad": "string|null",
+      "calleYNumero": "string|null"
+    },
+  
+    "items": [
+      {
+        "sku": "string|null",
+        "nombreProducto": "string",
+        "cantidad": "number",
+        "precioUnitario": "number",
+        "montoTotal": "number|null",
+        "comisionMarketplace": "number|null"
+      }
+    ],
+  
+    "totales": {
+      "costoEnvio": "number|null",
+      "total": "number"
+    },
+  
+    "metadatos": {
+      "canal": "web | mkp",
+      "traceId": "string",
+      "timestampIngesta": "string (ISO-8601)"
+    }
+  }
