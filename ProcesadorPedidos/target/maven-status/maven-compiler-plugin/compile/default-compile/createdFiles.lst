@@ -1,0 +1,9 @@
+cl\iplacex\procesador\model\CanonicalOrder$Item.class
+cl\iplacex\procesador\model\CanonicalOrder$Metadatos.class
+cl\iplacex\procesador\model\CanonicalOrder$Totales.class
+cl\iplacex\procesador\model\CanonicalOrder.class
+cl\iplacex\procesador\model\CanonicalOrder$Cliente.class
+cl\iplacex\procesador\model\CanonicalOrder$Direccion.class
+cl\iplacex\procesador\translator\MarketplaceTranslator.class
+cl\iplacex\procesador\translator\WebTranslator.class
+cl\iplacex\procesador\Main.class

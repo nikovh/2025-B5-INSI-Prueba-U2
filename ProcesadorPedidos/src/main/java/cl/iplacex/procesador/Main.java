@@ -9,11 +9,11 @@ import java.util.Properties;
 
 public class Main {
 
-    private static void main(String[] args) {
+    public static void main(String[] args) {
         Properties props = new Properties();
 
         try (InputStream is = Main.class.getClassLoader().getResourceAsStream("app.properties")) {
-            if (is == null) throw new RuntimeException("no se encontró el archivo app.properties en resources")
+            if (is == null) throw new RuntimeException("no se encontró el archivo app.properties en resources");
             props.load(is);
 
             String brokerUrl    = props.getProperty("artemis.brokerUrl");
