@@ -31,6 +31,12 @@ dependencies {
 
     implementation("jakarta.xml.bind:jakarta.xml.bind-api:4.0.2")
     implementation("com.sun.xml.bind:jaxb-ri:4.0.5")
+
+	// Jakarta Messaging API
+    implementation ("jakarta.jms:jakarta.jms-api:3.1.0")
+    // Artemis Jakarta Client (para compatibilidad con Java 21)
+    implementation ("org.apache.activemq:artemis-jakarta-client:2.31.2")
+
 }
 
 tasks.withType<Test> {
